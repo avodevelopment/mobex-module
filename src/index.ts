@@ -55,4 +55,8 @@ export const killApp = (onBeforeExit) => {
   MobexModule.killApp(onBeforeExit);
 };
 
+export const isRequestOverlayPermissionGranted = (callback) => {
+  MobexModule.isRequestOverlayPermissionGranted(callback);
+};
+
 export default MobexModule;
