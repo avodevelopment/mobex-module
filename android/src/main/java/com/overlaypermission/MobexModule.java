@@ -158,7 +158,7 @@ public class MobexModule extends ReactContextBaseJavaModule {
     @ReactMethod
     public void isRequestOverlayPermissionGranted(Callback callback) {
       try {
-        boolean equal = !Settings.canDrawOverlays(reactContext);
+        boolean equal = Settings.canDrawOverlays(reactContext);
         callback.invoke(equal);
       } catch (Exception e) {
         callback.invoke(e.getMessage());

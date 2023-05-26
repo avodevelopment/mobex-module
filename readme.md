@@ -63,7 +63,7 @@ The isRequestOverlayPermissionGranted function checks if the overlay permission 
 import MobexModule from "mobex-module";
 
 if (Platform.OS === "android") {
-  MobexModule.isRequestOverlayPermissionGranted((status: any) => {
+  MobexModule.isRequestOverlayPermissionGranted((status) => {
     if (status) {
       Alert.alert(
         "Permissions",
