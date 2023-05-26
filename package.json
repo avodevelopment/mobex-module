@@ -1,0 +1,40 @@
+{
+  "name": "mobex-module",
+  "version": "1.0.0",
+  "description": "mobex-module is a package to request native functions on android in React Native app.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "react-native",
+    "screen on",
+    "screen off",
+    "ACTION_SCREEN_ON",
+    "ACTION_SCREEN_OFF",
+    "Android",
+    "Overlay Permission",
+    "Permissions",
+    "Kill App"
+  ],
+  "author": {
+    "name": "Avo Development Ltd", 
+    "email": "devteam@avodev.co.uk",
+    "url": "https://mobex.app"
+  },
+  "homepage": "https://github.com/avodevelopment/mobex-module",
+  "bugs": {
+    "email": "devteam@avodev.co.uk"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/avodevelopment/mobex-module"
+  },
+  "license": "MIT",
+  "peerDependencies": {
+    "react-native": "^0.69.3"
+  },
+  "dependencies": {
+    "@types/react-native": "^0.69.3"
+  }
+}
